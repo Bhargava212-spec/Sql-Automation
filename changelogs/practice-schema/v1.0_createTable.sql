@@ -1,4 +1,4 @@
---liquibase formatted sql
+
 -- changeset your_name:Bhargava
 CREATE TABLE Tester (
     id INT PRIMARY KEY AUTO_INCREMENT,
