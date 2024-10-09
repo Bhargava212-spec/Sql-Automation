@@ -1,5 +1,5 @@
 
--- changeset your_name:Bhargava
+-- changeset author:Bhargava
 CREATE TABLE Tester (
     id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(100) UNIQUE,
