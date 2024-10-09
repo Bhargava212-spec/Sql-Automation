@@ -15,8 +15,8 @@ pipeline {
                 script {
                     def author = "${env.BUILD_USER}" ?: 'default_user'
                     def uuid = UUID.randomUUID().toString()
-                    sh "sed -i 's/\${author_name}/${author}/g' db.changelog-master.sql"
-                    sh "sed -i 's/\${random_uuid}/${uuid}/g' db.changelog-master.sql"
+                    sh "sed -i 's/\${author_name}/${author}/g' db.changelog-master.yml"
+                    sh "sed -i 's/\${random_uuid}/${uuid}/g' db.changelog-master.yml"
                 }
             }
         }
